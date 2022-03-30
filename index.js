@@ -28,7 +28,8 @@ class TimerPog {
     this.date = _date;
 
     var dateObj = document.createElement("p");
-    document.body.appendChild(dateObj);
+    // document.body.appendChild(dateObj);
+    document.getElementById("timers").appendChild(dateObj);
 
     var x = setInterval(function () {
       // Get todays date and time
@@ -63,7 +64,8 @@ class weekdayTimer {
     this.date = _date;
 
     var dateObj = document.createElement("p");
-    document.body.appendChild(dateObj);
+    document.getElementById("timers").appendChild(dateObj);
+    // document.body.appendChild(dateObj);
 
     var x = setInterval(function () {
       // Get todays date and time
