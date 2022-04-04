@@ -18,6 +18,7 @@
         font-family: sans-serif;
         font-weight: 900;
         text-align: center;
+        transition: background 0.5s;
       }
 
       .center {
@@ -40,6 +41,19 @@
         padding: 20px;
         width: 40%;
       }
+
+      #ah {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        background: #ff4500;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        height: 100px;
+        width: 150px;
+        color: #fff;
+      }
     </style>
 
     <script src="index.js" defer></script>
@@ -48,6 +62,8 @@
     <div class="center">
       <div id="timers"></div>
     </div>
+
+    <button id="ah">Amazing Colors (don't use a color picker)</button>
     <!-- There's not much here, idk why you're looking at the code -->
     <!-- All the real code is in the index.js file above, this is just css -->
   </body>

@@ -107,3 +107,30 @@ var spanishTimer = new TimerPog(new Date(DAY + " 14:55:0"));
 var endofyearTimer = new TimerPog(new Date("June 10, 2022 10:45:0"));
 var endofyearweekday = new weekdayTimer(new Date("June 10, 2022 10:45:0"));
 var endofuniverseTimer = new TimerPog(new Date("June 10, 9999 10:45:0"));
+
+let increment = 0;
+
+document.getElementById("ah").addEventListener("click", function () {
+  increment++;
+
+  switch (increment) {
+    case 1:
+      document.body.style.background = "#b00b69";
+      break;
+    case 2:
+      document.body.style.background = "#bbc123";
+      break;
+    case 3:
+      document.body.style.background = "#123bbc";
+      break;
+    case 4:
+      document.body.style.background = "#d11d05";
+      break;
+    case 5:
+      document.body.style.background = "#696969";
+      break;
+    case 6:
+      document.body.style.background = "#42069e";
+      break;
+  }
+});
